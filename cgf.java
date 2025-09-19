@@ -74,7 +74,7 @@ public class cgf {
         s2.setName("Rahim");
         s2.setAge(22);
         s2.setDepartment("EEE");
-Student s4 = new Student(104, "Rakib", 22, "ECE");
+Student s4 = new Student(104, "Rakib", 22, "cse");
         // Print
         System.out.println(s1);
         System.out.println(s2);
