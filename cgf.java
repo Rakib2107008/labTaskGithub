@@ -17,7 +17,7 @@
         this.department = department;
     }
 
-    // Getters
+    // Getterss
     public int getId() {
         return id;
     }
@@ -67,14 +67,14 @@ public class cgf {
     public static void main(String[] args) {
         // Using parameterized constructor
         Student s1 = new Student(101, "Rakib", 21, "CSE");
-
+ Student s3 = new Student(103, "Riyad", 20, "CSE");
         // Using default constructor + setters
         Student s2 = new Student();
         s2.setId(102);
         s2.setName("Rahim");
         s2.setAge(22);
         s2.setDepartment("EEE");
-
+Student s4 = new Student(104, "Sakib", 22, "CSE");
         // Print
         System.out.println(s1);
         System.out.println(s2);
